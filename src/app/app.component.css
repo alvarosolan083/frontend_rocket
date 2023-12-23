@@ -1,0 +1,32 @@
+/* app.component.css */
+
+/* Estilos para el encabezado */
+header {
+    background-color: #333; /* Cambia el color de fondo del encabezado */
+    color: white; /* Cambia el color del texto */
+    padding: 10px; /* Añade espacio alrededor del encabezado */
+  }
+  
+  /* Estilos para la barra de navegación */
+  nav {
+    display: flex; /* Utiliza flexbox para alinear los elementos */
+    gap: 20px; /* Espacio entre elementos de navegación */
+  }
+  
+  nav a {
+    color: white; /* Cambia el color del texto de los enlaces */
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    padding: 8px 12px; /* Añade espacio dentro de los enlaces */
+    border-radius: 4px; /* Añade esquinas redondeadas a los enlaces */
+    background-color: #555; /* Color de fondo de los enlaces */
+  }
+  
+  nav a:hover {
+    background-color: #777; /* Cambia el color de fondo al pasar el ratón por encima */
+  }
+  
+  /* Estilos para el contenido principal */
+  main {
+    padding: 20px; /* Añade espacio alrededor del contenido principal */
+  }
+  

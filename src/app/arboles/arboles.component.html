@@ -1,0 +1,14 @@
+<div *ngIf="arboles.length > 0; else noArboles">
+    <h2>Lista de Árboles</h2>
+    <ul>
+      <li *ngFor="let arbol of arboles">
+        {{ arbol.nombre_arbol }} - {{ arbol.ubicacion_id }}
+        
+      </li>
+    </ul>
+  </div>
+  
+  <ng-template #noArboles>
+    <p>No hay árboles disponibles</p>
+  </ng-template>
+  

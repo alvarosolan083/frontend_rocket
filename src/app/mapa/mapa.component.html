@@ -1,0 +1,15 @@
+<!-- Agregar el campo de búsqueda -->
+<div id="mapid" style="height: 400px;"></div>
+
+<div>
+  <input type="text" [(ngModel)]="nombreABuscar" placeholder="Buscar por nombre...">
+  <button (click)="buscarUbicacion()">Buscar</button>
+</div>
+
+<!-- Mostrar la ubicación del árbol filtrado -->
+<div *ngIf="ubicacionArbol">
+  <h2>Ubicación del Árbol</h2>
+  <p>
+    Latitud: {{ ubicacionArbol.latitud }} - Longitud: {{ ubicacionArbol.longitud }}
+  </p>
+</div>

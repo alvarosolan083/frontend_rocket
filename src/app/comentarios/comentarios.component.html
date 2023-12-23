@@ -1,0 +1,21 @@
+<form (ngSubmit)="enviarComentario()">
+    <div>
+      <label for="comentario">Comentario:</label>
+      <textarea id="comentario" name="comentario" [(ngModel)]="comentarioData.comentario" required></textarea>
+    </div>
+    <div>
+      <label for="linkedin">LinkedIn:</label>
+      <input type="text" id="linkedin" name="linkedin" [(ngModel)]="comentarioData.linkedin">
+    </div>
+    <div>
+      <label for="github">GitHub:</label>
+      <input type="text" id="github" name="github" [(ngModel)]="comentarioData.github">
+    </div>
+    <div>
+      <label for="telefono">Teléfono:</label>
+      <input type="text" id="telefono" name="telefono" [(ngModel)]="comentarioData.telefono">
+    </div>
+    <button (click)="enviarComentario()">Enviar Comentario</button>
+
+  </form>
+  

@@ -1,0 +1,31 @@
+/* Estilos para el contenedor principal */
+#mapid {
+  height: 400px;
+  margin-bottom: 20px; /* Espacio entre el mapa y los elementos de búsqueda */
+}
+
+/* Estilos para el contenedor de búsqueda */
+input[type="text"] {
+  padding: 8px;
+  margin-right: 10px; /* Espacio entre el campo de texto y el botón */
+}
+
+/* Estilos para el botón */
+button {
+  padding: 8px 16px;
+  background-color: #007bff; /* Color de fondo del botón */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Estilos para la sección de ubicación del árbol */
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+/* Estilos para la sección de coordenadas */
+p {
+  font-size: 1.2em;
+}

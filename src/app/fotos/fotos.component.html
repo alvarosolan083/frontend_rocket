@@ -1,0 +1,14 @@
+<div *ngIf="fotos.length > 0; else noFotos">
+    <h2>Fotos de Árboles</h2>
+    <div class="fotos-container">
+      <div *ngFor="let foto of fotos" class="foto-item">
+        <img [src]="foto.url_foto" alt="Foto de árbol">
+        <!-- Puedes añadir más información o detalles sobre la foto si es necesario -->
+      </div>
+    </div>
+  </div>
+  
+  <ng-template #noFotos>
+    <p>No hay fotos disponibles</p>
+  </ng-template>
+  
